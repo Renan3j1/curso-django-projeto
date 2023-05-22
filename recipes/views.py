@@ -5,13 +5,4 @@ from django.http import HttpResponse
 
 
 def home(request):
-    return render(request, 'recipes/home.html', context={'name': 'Luiz Otario'})
-
-
-def contato(request):
-    return render(request, 'apague/temp.html')
-    # retornar HTTP Response (servidor)
-
-
-def sobre(request):
-    return HttpResponse('sobre')
+    return render(request, 'recipes/pages/home.html', context={'name': 'Luiz Otario'})
