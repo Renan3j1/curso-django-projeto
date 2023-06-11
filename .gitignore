@@ -1,7 +1,7 @@
 venv
 .DS_Store
 .mypy_cache
-Projeto.code-workspace
+project.code-workspace
 
 # Django #
 *.log
